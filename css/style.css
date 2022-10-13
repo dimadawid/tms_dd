@@ -89,7 +89,12 @@
 	box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h5 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
 	margin: 0;
 }
 
@@ -467,7 +472,7 @@ li {
 .reviews__slider {
 	display: flex;
 	flex-wrap: wrap;
-	
+
 
 }
 
@@ -486,9 +491,9 @@ li {
 }
 
 .reviews__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	width: 50%;
 	padding-left: 129px;
 
@@ -512,15 +517,15 @@ li {
 	color: #FFFFFF;
 }
 
-.download{
+.download {
 	margin: 114px 0;
 }
 
-.download__content{
+.download__content {
 	text-align: center;
 }
 
-.download__text h3{
+.download__text h3 {
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 500;
@@ -529,7 +534,7 @@ li {
 	padding-bottom: 10px;
 }
 
-.download__text h5{
+.download__text h5 {
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
@@ -541,21 +546,23 @@ li {
 }
 
 
-footer{
-	
+footer {
+
 	background: #353C65;
 }
-.footer__content{
+
+.footer__content {
 	padding: 72px 0;
 	display: flex;
 	flex-wrap: wrap;
 }
-.footer__col{
+
+.footer__col {
 	width: 33.33333%;
 	text-align: center;
 }
 
-.footer__col__title{
+.footer__col__title {
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 700;
@@ -567,7 +574,7 @@ footer{
 
 }
 
-.footer__col__text{
+.footer__col__text {
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 400;
@@ -577,24 +584,27 @@ footer{
 	text-transform: capitalize;
 }
 
-.footer__col__social{
+.footer__col__social {
 
 	justify-content: center;
 }
-.copyright{
+
+.copyright {
 	text-align: center;
 	padding: 24px 0;
 	background: #2C3154;
 }
-.copyright__text{
+
+.copyright__text {
 	color: #808080;
 	font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-text-transform: capitalize;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-transform: capitalize;
 }
-.copyright__text span{
+
+.copyright__text span {
 	color: #FFFFFF;
 }
