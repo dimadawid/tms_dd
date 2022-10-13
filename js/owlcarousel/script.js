@@ -1,16 +1,21 @@
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:0,
-    nav:true,
-    responsive:{
-        1510:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
+$(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
+        loop:true, //Зацикливаем слайдер
+        margin:2, //Отступ от элемента справа в 50px
+        nav:false, //Отключение навигации
+        dots: true,
+        dotsEach: 1,
+      
+        responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
         }
-    }
-})
+    });
+});

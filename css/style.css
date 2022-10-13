@@ -468,6 +468,9 @@ li {
 	overflow: hidden;
 	background: #5C3249;
 }
+.container__reviews{
+	margin: 0 auto;
+}
 
 .reviews__slider {
 	display: flex;
@@ -478,7 +481,7 @@ li {
 
 .reviews__foto {
 	width: 50%;
-	height: 490px;
+	height: 480px;
 	position: relative;
 }
 
@@ -496,6 +499,7 @@ li {
 	justify-content: center;
 	width: 50%;
 	padding-left: 129px;
+	padding-right: 70px;
 
 }
 
@@ -607,4 +611,17 @@ footer {
 
 .copyright__text span {
 	color: #FFFFFF;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    background-color: #fff;
+	padding-top: 31px;
+     margin-top: 0 !important; 
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #7E5D6F !important; 
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 14px !important; 
+    height: 14px !important; 
 }
