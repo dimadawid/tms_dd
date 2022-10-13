@@ -1,2 +1,2 @@
 # Мой первый проект на Techmeskils
-# Верска шаблон ACTIVEBOX
+Верска шаблон ACTIVEBOX
