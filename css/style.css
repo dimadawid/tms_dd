@@ -481,16 +481,16 @@ li {
 
 .reviews__foto {
 	width: 50%;
-	height: 480px;
-	position: relative;
+	/* height: 480px;
+	position: relative; */
 }
 
 .reviews__img {
-	position: absolute;
+	/* position: absolute;
 	top: 50%;
 	right: 0;
 	z-index: 1;
-	transform: translateY(-50%);
+	transform: translateY(-50%); */
 }
 
 .reviews__text {
@@ -498,8 +498,7 @@ li {
 	flex-direction: column;
 	justify-content: center;
 	width: 50%;
-	padding-left: 129px;
-	padding-right: 70px;
+	padding: 0 50px;
 
 }
 
@@ -625,3 +624,19 @@ footer {
     width: 14px !important; 
     height: 14px !important; 
 }
+
+@media (max-width: 768px) { 
+	
+	.reviews__foto {
+		width: 100%;
+		
+	}
+	.reviews__text {
+		
+			width: 100%;
+			
+			
+		
+	}
+
+ }
