@@ -675,6 +675,13 @@ footer {
 
 @media (min-width: 320px) and (max-width: 568px) {
 
+
+	.owl-theme .owl-nav.disabled+.owl-dots {
+		
+		padding-top: 28px;
+
+	}
+
 	.logo,
 	.nav {
 		margin: 0;
@@ -849,7 +856,11 @@ footer {
 
 
 @media (min-width: 569px) and (max-width: 1023px) {
-
+	.owl-theme .owl-nav.disabled+.owl-dots {
+		
+		padding-top: 28px;
+		
+	}
 	.logo,
 	.nav {
 		margin: 0;
@@ -951,7 +962,7 @@ footer {
 		font-size: 20px;
 		line-height: 24px;
 		margin-bottom: 34px;
-		
+
 	}
 
 	.footer__col__social {
