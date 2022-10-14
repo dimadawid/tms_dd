@@ -713,6 +713,7 @@ footer {
 	}
 	.reviews__text h2 {
 		margin-top: 27px;
+		padding: 0 15px;
 	}
 
 	.advantages__item {
@@ -877,5 +878,27 @@ footer {
 		font-size: 12px;
 
 	}
+	.download__text h5 {
+	
+		line-height: 16px;
+	
+	}
+	.download__text h3 {
+		
+		font-size: 24px;
+		line-height: 28px;
+		
+	}
+	.footer__col__text {
+	
+		font-size: 14px;
+		line-height: 16px;
+	
+	}
+	.copyright__text {
+		
+		font-size: 14px;
+		line-height: 16px;
+		
 
 }
