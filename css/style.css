@@ -729,6 +729,31 @@ footer {
 	.download {
 		margin: 45px 0;
 	}
+	.footer__col__title {
+		
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 34px;
+	}
+	.footer__col__text {
+	
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 0;
+	
+	}
+	.footer__col__social {
+		margin-bottom: 59px;
+	}
+	.footer__content {
+		padding-top: 34px;
+		padding-bottom: 33px;
+	}
+	.copyright__text{
+
+font-size: 14px;
+line-height: 16px;
+	}
 
 
 }
