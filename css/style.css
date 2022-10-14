@@ -667,7 +667,7 @@ footer {
 }
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 568x) {
 
 	.logo, .nav {
 		margin: 0;
@@ -839,7 +839,7 @@ footer {
 }
 
 
-@media (min-width: 481px) and (max-width: 1023px) {
+@media (min-width: 569px) and (max-width: 1023px) {
 	.logo, .nav {
 		margin: 0;
 	}
@@ -855,6 +855,14 @@ footer {
 		display: block;
 		color: #FFFFFF;
 	}
+	.banner_h1 {
+		text-align: center;
+		margin: 90px 0 0 0;
+	}
+	.button{
+		padding: 60px 0 60px 0;
+}
+	
 
 	.projects__item {
 		width: 50%;
@@ -862,26 +870,47 @@ footer {
 	}
 
 	.reviews__foto {
-		width: 50%;
+		width: 100%;
 
 	}
 
 	.reviews__text {
 
-		width: 50%;
+		width: 100%;
 
 
 
 	}
-
+	.advantes {
+		
+		padding: 70px 0 0 0;
+	}
+	
 	.advantages__item {
 		width: 50%;
+		margin-bottom: 60px;
+	}
+	.workers {
+		margin-top: 70px;
+		margin-bottom: 0;
+	}
+	.reviews__text {
 
+		width: 100%;
+		text-align: center;
+		padding: 0;
+
+
+
+	}
+	.reviews__text h2 {
+		margin-top: 27px;
+		padding: 0 15px;
 	}
 
 
 	.team__card {
-
+		padding-bottom: 50px;
 		width: 50%;
 
 	}
@@ -889,6 +918,36 @@ footer {
 	.footer__col {
 		width: 100%;
 
+	}
+
+	.footer__col__title {
+
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 34px;
+	}
+
+	.footer__col__text {
+
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 34px;
+
+	}
+
+	.footer__col__social {
+		margin-bottom: 34px;
+	}
+
+	.footer__content {
+		padding-top: 34px;
+		padding-bottom: 33px;
+	}
+
+	.copyright__text {
+
+		font-size: 14px;
+		line-height: 16px;
 	}
 
 }
