@@ -239,6 +239,7 @@ li {
 	color: #FFFFFF;
 	text-transform: uppercase;
 	padding-bottom: 31.4px;
+	
 }
 
 .banner_h1 span {
@@ -626,7 +627,62 @@ footer {
 	border: 1px solid #7E5D6F;
 	background: none !important; 
 }
+@media (max-width: 320px) { 
+	.nav {
+		display: none;
+	}
 
+	.banner_h1 {
+		text-align: center;
+		margin: 70px 0px 0 0px;
+	}
+
+	.banner_h1 h1 {
+	
+		font-size: 36px;
+	}
+	.banner_h1 span {
+		font-size: 14px;
+	}
+
+	.bg_btn {
+		width: 279px;
+		height: 58px;
+	}
+
+	.projects__item {
+		width: 100%;
+		
+	}
+
+	.team__card {
+		
+		width: 100%;
+		
+	}
+
+	.footer__col {
+		width: 100%;
+		
+	}
+	
+	.reviews__foto {
+		width: 100%;
+		
+	}
+	.reviews__text {
+		
+			width: 100%;
+
+			
+	}
+	.advantages__item{
+		width: 100%;
+	}
+
+
+		
+	}
 @media (max-width: 768px) { 
 	
 	.reviews__foto {
@@ -638,6 +694,67 @@ footer {
 			width: 100%;
 			
 			
+		
+	}
+
+ }
+ @media (max-width: 1024px) {
+
+
+	.banner_h1 h1 {
+		
+		font-size: 52px;
+		
+	}
+
+	.banner_h1 span {
+		
+		font-size: 18px;
+		
+	}
+
+	.advantes img {
+		
+		width: 54px;
+	}
+
+	.advantages__title {
+		
+		font-size: 18px;
+	
+	}
+
+	.advantages__text {
+		
+		font-size: 14px;
+	
+	}
+	.projects__item {
+		
+		height: 230px;
+		
+	}
+
+
+	.team__name {
+		
+		font-size: 18px;
+		
+	}
+	.team__ceo {
+	
+		font-size: 14px;
+	
+	}
+
+	.reviews__text h2 {
+	
+		font-size: 24px;
+		
+	}
+	.reviews__text h6 {
+	
+		font-size: 12px;
 		
 	}
 
