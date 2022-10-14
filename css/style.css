@@ -683,6 +683,62 @@ footer {
 
 		
 	}
+	@media (max-width: 375px) { 
+		.nav {
+			display: none;
+		}
+	
+		.banner_h1 {
+			text-align: center;
+			margin: 70px 0px 0 0px;
+		}
+	
+		.banner_h1 h1 {
+		
+			font-size: 36px;
+		}
+		.banner_h1 span {
+			font-size: 14px;
+		}
+	
+		.bg_btn {
+			width: 279px;
+			height: 58px;
+		}
+	
+		.projects__item {
+			width: 100%;
+			
+		}
+	
+		.team__card {
+			
+			width: 100%;
+			
+		}
+	
+		.footer__col {
+			width: 100%;
+			
+		}
+		
+		.reviews__foto {
+			width: 100%;
+			
+		}
+		.reviews__text {
+			
+				width: 100%;
+	
+				
+		}
+		.advantages__item{
+			width: 100%;
+		}
+	
+	
+			
+		}
 @media (max-width: 768px) { 
 	
 	.reviews__foto {
