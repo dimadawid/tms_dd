@@ -711,6 +711,9 @@ footer {
 
 
 	}
+	.reviews__text h2 {
+		margin-top: 27px;
+	}
 
 	.advantages__item {
 		width: 100%;
