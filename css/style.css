@@ -631,14 +631,16 @@ footer {
 	border: 1px solid #7E5D6F;
 	background: none !important;
 }
-.burger_menu{
+
+.burger_menu {
 	display: none;
 	background: none;
 	border: 0;
 	padding: 0;
-	
+
 }
-.burger__line{
+
+.burger__line {
 	display: block;
 	width: 30px;
 	height: 3px;
@@ -648,7 +650,9 @@ footer {
 	position: relative;
 
 }
-.burger__line:before, .burger__line:after{
+
+.burger__line:before,
+.burger__line:after {
 	content: "";
 	width: 100%;
 	height: 100%;
@@ -657,28 +661,32 @@ footer {
 	left: 0;
 	z-index: 1;
 }
-.burger__line:before{
+
+.burger__line:before {
 	width: 23px;
-	top:-8px;
+	top: -8px;
 }
-.burger__line:after{
+
+.burger__line:after {
 	width: 27px;
-	bottom:-8px;
+	bottom: -8px;
 }
 
 
 @media (min-width: 320px) and (max-width: 568px) {
 
-	.logo, .nav {
+	.logo,
+	.nav {
 		margin: 0;
 	}
+
 	.header_inner {
-	
+
 		border-bottom: none;
 		padding-top: 21px;
-   }
+	}
 
-	.burger_menu{
+	.burger_menu {
 		display: block;
 		color: #FFFFFF;
 	}
@@ -729,27 +737,28 @@ footer {
 		width: 50%;
 		height: 164px !important;
 	}
+
 	.projects__name {
-		
+
 		font-size: 18px;
 		line-height: 21px;
 		padding-bottom: 4px;
-    	padding-top: 0px;
-		
+		padding-top: 0px;
+
 	}
+
 	.projects__text {
-		
+
 		font-size: 14px;
 		line-height: 16px;
 		margin-top: 0px;
-	
+
 	}
 
 	.workers {
 		margin-top: 35px;
 		margin-bottom: 0;
 	}
-
 
 	.team__card {
 		padding-bottom: 50px;
@@ -806,10 +815,10 @@ footer {
 	}
 
 	.footer__col__title {
-
 		font-size: 14px;
 		line-height: 16px;
-		margin-bottom: 34px;
+		margin-bottom: 36px;
+		margin-top: 36px;
 	}
 
 	.footer__col__text {
@@ -819,13 +828,13 @@ footer {
 		margin-bottom: 0;
 
 	}
-
+	
 	.footer__col__social {
-		margin-bottom: 59px;
+		margin-bottom: 0;
 	}
 
 	.footer__content {
-		padding-top: 34px;
+		padding-top: 0;
 		padding-bottom: 33px;
 	}
 
@@ -840,29 +849,36 @@ footer {
 
 
 @media (min-width: 569px) and (max-width: 1023px) {
-	.logo, .nav {
+
+	.logo,
+	.nav {
 		margin: 0;
 	}
+
 	.header_inner {
-	
+
 		border-bottom: none;
 		padding-top: 21px;
 	}
+
 	.nav {
 		display: none;
 	}
-	.burger_menu{
+
+	.burger_menu {
 		display: block;
 		color: #FFFFFF;
 	}
+
 	.banner_h1 {
 		text-align: center;
 		margin: 90px 0 0 0;
 	}
-	.button{
+
+	.button {
 		padding: 60px 0 60px 0;
-}
-	
+	}
+
 
 	.projects__item {
 		width: 50%;
@@ -881,19 +897,22 @@ footer {
 
 
 	}
+
 	.advantes {
-		
+
 		padding: 70px 0 0 0;
 	}
-	
+
 	.advantages__item {
 		width: 50%;
 		margin-bottom: 60px;
 	}
+
 	.workers {
 		margin-top: 70px;
 		margin-bottom: 0;
 	}
+
 	.reviews__text {
 
 		width: 100%;
@@ -903,6 +922,7 @@ footer {
 
 
 	}
+
 	.reviews__text h2 {
 		margin-top: 27px;
 		padding: 0 15px;
@@ -922,17 +942,16 @@ footer {
 
 	.footer__col__title {
 
-		font-size: 14px;
-		line-height: 16px;
+		font-size: 20px;
+		line-height: 21px;
 		margin-bottom: 34px;
 	}
 
 	.footer__col__text {
-
-		font-size: 14px;
-		line-height: 16px;
+		font-size: 20px;
+		line-height: 24px;
 		margin-bottom: 34px;
-
+		
 	}
 
 	.footer__col__social {
@@ -945,9 +964,8 @@ footer {
 	}
 
 	.copyright__text {
-
-		font-size: 14px;
-		line-height: 16px;
+		font-size: 22px;
+		line-height: 24px;
 	}
 
 }
@@ -1014,27 +1032,19 @@ footer {
 		font-size: 12px;
 
 	}
+
 	.download__text h5 {
-	
+
 		line-height: 16px;
-	
+
 	}
+
 	.download__text h3 {
-		
+
 		font-size: 24px;
 		line-height: 28px;
-		
-	}
-	.footer__col__text {
-	
-		font-size: 14px;
-		line-height: 16px;
-	
-	}
-	.copyright__text {
-		
-		font-size: 14px;
-		line-height: 16px;
-		
 
+	}
+
+	
 }
