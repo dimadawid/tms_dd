@@ -650,6 +650,7 @@ footer {
 	.banner_h1 span {
 		font-size: 14px;
 	}
+
 	.button {
 		padding: 51px 0 51px 0;
 	}
@@ -660,15 +661,17 @@ footer {
 	}
 
 	.advantes {
-		
+
 		padding: 58px 0 34px 0;
 	}
+
 	.advantages__item:last-child {
-		
+
 		margin-bottom: 0;
 	}
+
 	.advantages__item {
-		
+
 		margin-bottom: 50px;
 	}
 
@@ -676,6 +679,7 @@ footer {
 		width: 50%;
 		height: 164px !important;
 	}
+
 	.workers {
 		margin-top: 35px;
 		margin-bottom: 0;
@@ -703,7 +707,7 @@ footer {
 		width: 100%;
 		text-align: center;
 		padding: 0;
-		
+
 
 
 	}
@@ -711,48 +715,55 @@ footer {
 	.advantages__item {
 		width: 100%;
 	}
-	
-	
-		.download__text h3 {
-		
-			font-size: 18px;
-			line-height: 21px;
-			
-		
+
+
+	.download__text h3 {
+
+		font-size: 18px;
+		line-height: 21px;
+
+
 	}
+
 	.download__text h5 {
-		
+
 		font-size: 13px;
 		line-height: 15px;
-		
+
 	}
+
 	.download {
 		margin: 45px 0;
 	}
+
 	.footer__col__title {
-		
+
 		font-size: 14px;
 		line-height: 16px;
 		margin-bottom: 34px;
 	}
+
 	.footer__col__text {
-	
+
 		font-size: 14px;
 		line-height: 16px;
 		margin-bottom: 0;
-	
+
 	}
+
 	.footer__col__social {
 		margin-bottom: 59px;
 	}
+
 	.footer__content {
 		padding-top: 34px;
 		padding-bottom: 33px;
 	}
-	.copyright__text{
 
-font-size: 14px;
-line-height: 16px;
+	.copyright__text {
+
+		font-size: 14px;
+		line-height: 16px;
 	}
 
 
@@ -763,6 +774,7 @@ line-height: 16px;
 	.nav {
 		display: none;
 	}
+
 	.projects__item {
 		width: 50%;
 		height: 164px;
@@ -780,11 +792,12 @@ line-height: 16px;
 
 
 	}
+
 	.advantages__item {
 		width: 50%;
 
 	}
-	
+
 
 	.team__card {
 
@@ -812,7 +825,7 @@ line-height: 16px;
 
 		font-size: 18px;
 
-}
+	}
 
 	.advantes img {
 
