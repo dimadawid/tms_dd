@@ -239,7 +239,7 @@ li {
 	color: #FFFFFF;
 	text-transform: uppercase;
 	padding-bottom: 31.4px;
-	
+
 }
 
 .banner_h1 span {
@@ -469,7 +469,8 @@ li {
 	overflow: hidden;
 	background: #5C3249;
 }
-.container__reviews{
+
+.container__reviews {
 	margin: 0 auto;
 }
 
@@ -614,20 +615,24 @@ footer {
 }
 
 .owl-theme .owl-nav.disabled+.owl-dots {
-    background-color: #fff;
+	background-color: #fff;
 	padding-top: 31px;
-     margin-top: 0 !important; 
+	margin-top: 0 !important;
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #7E5D6F !important; 
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: #7E5D6F !important;
 }
+
 .owl-theme .owl-dots .owl-dot span {
-    width: 14px !important; 
-    height: 14px !important; 
+	width: 14px !important;
+	height: 14px !important;
 	border: 1px solid #7E5D6F;
-	background: none !important; 
+	background: none !important;
 }
-@media (min-width: 320px) and (max-width: 767px) { 
+
+@media (min-width: 320px) and (max-width: 480px) {
 	.nav {
 		display: none;
 	}
@@ -638,11 +643,15 @@ footer {
 	}
 
 	.banner_h1 h1 {
-	
-		font-size: 36px;
+
+		font-size: 36px !important;
 	}
+
 	.banner_h1 span {
 		font-size: 14px;
+	}
+	.button {
+		padding: 51px 0 51px 0;
 	}
 
 	.bg_btn {
@@ -650,111 +659,182 @@ footer {
 		height: 58px;
 	}
 
-	.projects__item {
-		width: 50%;
+	.advantes {
+		
+		padding: 58px 0 34px 0;
+	}
+	.advantages__item:last-child {
+		
+		margin-bottom: 0;
+	}
+	.advantages__item {
+		
+		margin-bottom: 50px;
 	}
 
+	.projects__item {
+		width: 50%;
+		height: 164px !important;
+	}
+	.workers {
+		margin-top: 35px;
+		margin-bottom: 0;
+	}
+
+
 	.team__card {
-		
+		padding-bottom: 50px;
 		width: 100%;
-		
+
 	}
 
 	.footer__col {
 		width: 100%;
-		
+
 	}
-	
+
 	.reviews__foto {
 		width: 100%;
-		
-	}
-	.reviews__text {
-		
-			width: 100%;
 
-			
 	}
-	.advantages__item{
+
+	.reviews__text {
+
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		
+
+
+	}
+
+	.advantages__item {
 		width: 100%;
 	}
-
-
-		
-	}	
-@media (max-width: 768px) { 
 	
-	.reviews__foto {
-		width: 100%;
+	
+		.download__text h3 {
+		
+			font-size: 18px;
+			line-height: 21px;
+			
 		
 	}
-	.reviews__text {
+	.download__text h5 {
 		
-			width: 100%;
-			
-			
+		font-size: 13px;
+		line-height: 15px;
 		
+	}
+	.download {
+		margin: 45px 0;
 	}
 
- }
- @media (max-width: 1024px) {
+
+}
+
+
+@media (min-width: 481px) and (max-width: 1023px) {
+	.nav {
+		display: none;
+	}
+	.projects__item {
+		width: 50%;
+		height: 164px;
+	}
+
+	.reviews__foto {
+		width: 50%;
+
+	}
+
+	.reviews__text {
+
+		width: 50%;
+
+
+
+	}
+	.advantages__item {
+		width: 50%;
+
+	}
+	
+
+	.team__card {
+
+		width: 50%;
+
+	}
+
+	.footer__col {
+		width: 100%;
+
+	}
+
+}
+
+@media (max-width: 1024px) {
 
 
 	.banner_h1 h1 {
-		
+
 		font-size: 52px;
-		
+
 	}
 
 	.banner_h1 span {
-		
+
 		font-size: 18px;
-		
-	}
+
+}
 
 	.advantes img {
-		
+
 		width: 54px;
 	}
 
 	.advantages__title {
-		
+
 		font-size: 18px;
-	
+
 	}
 
 	.advantages__text {
-		
+
 		font-size: 14px;
-	
+
 	}
+
 	.projects__item {
-		
+
 		height: 230px;
-		
+
 	}
 
 
 	.team__name {
-		
+
 		font-size: 18px;
-		
+
 	}
+
 	.team__ceo {
-	
+
 		font-size: 14px;
-	
+
 	}
 
 	.reviews__text h2 {
-	
+
 		font-size: 24px;
-		
-	}
-	.reviews__text h6 {
-	
-		font-size: 12px;
-		
+
 	}
 
- }
+	.reviews__text h6 {
+
+		font-size: 12px;
+
+	}
+
+}
