@@ -487,13 +487,13 @@ li {
 	position: relative; */
 }
 
-/* .reviews__img {
+.reviews__img {
 	/* position: absolute;
 	top: 50%;
 	right: 0;
 	z-index: 1;
 	transform: translateY(-50%); */
-} */
+}
 
 .reviews__text {
 	display: flex;
@@ -981,7 +981,7 @@ footer {
 
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
 
 	.banner_h1 h1 {
