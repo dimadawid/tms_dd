@@ -981,7 +981,7 @@ footer {
 
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
 
 	.banner_h1 h1 {
