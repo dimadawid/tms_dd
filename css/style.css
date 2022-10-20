@@ -722,11 +722,11 @@ footer {
 		display: block;
 	}
 	.nav ul{
-		padding-top: 64px;
+		padding-top: 14px;
 	}
 	.nav ul li{
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-top: 40px;
+		
 
 		/* padding: 7px 15px; */
 	}
