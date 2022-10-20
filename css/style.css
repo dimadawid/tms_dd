@@ -891,6 +891,14 @@ footer {
 
 
 @media screen and (min-width: 569px) and (max-width: 1023px) {
+
+	.nav li:after {
+		
+		display: none;
+		
+
+	}
+
 	li {
 		display: block;
 	}
