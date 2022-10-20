@@ -724,11 +724,9 @@ footer {
 	.nav ul{
 		padding-top: 14px;
 	}
-	.nav ul li{
-		margin-top: 40px;
-		
 
-		/* padding: 7px 15px; */
+	.nav h6 {
+		padding: 20px 0px;
 	}
 
 	.nav li:after {
@@ -938,12 +936,11 @@ footer {
 	.nav ul{
 		padding-top: 14px;
 	}
-	.nav ul li{
-		margin-top: 40px;
-		
 
-		/* padding: 7px 15px; */
+	.nav h6 {
+		padding: 20px 0px;
 	}
+
 	.owl-theme .owl-nav.disabled+.owl-dots {
 		
 		padding-top: 28px;
