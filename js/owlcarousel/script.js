@@ -27,3 +27,11 @@ $("#navToggle").on("click", function(event) {
     event.preventDefault();
     nav.toggleClass("show");
 });
+
+$('.burger__line').on('click', function (e) {
+    e.preventDefault();
+    $(this).toggleClass('burger__line--active');
+  });
+
+
+
